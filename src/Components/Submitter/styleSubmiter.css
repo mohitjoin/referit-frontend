@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.referall-data-inputs-div {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    color: #000000;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    min-height: 200px !important;
+}
+
+.info-and-inputs {
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+
+.adder-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    /* identical to box height, or 133% */
+    /* text-align: center; */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.inputs-their-text {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.input-about-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem !important;
+    color: #000000;
+}
+
+.inputs-all {
+    width: 40%;
+    margin: auto;
+    margin-left: 100px !important;
+}
+
+.submit-but-div {
+    width: 60%;
+    height: 60px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.submit-form-button {
+    height: 100%;
+    width: 100%;
+    font-size: 2rem !important;
+    color: white !important;
+    background: linear-gradient(268.23deg, #CE4DA4 17.14%, #4285F4 78.69%);
+}
+
+@media screen and (max-width:992px) {
+    .inputs-all {
+        width: 100%;
+        margin-top: 10px !important;
+        margin-left: -10px !important;
+    }
+    .input-about-text {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem !important;
+        color: #000000;
+    }
+    .submit-but-div {
+        width: 100%;
+        height: 60px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .submit-form-button {
+        height: 100%;
+        width: 100%;
+        font-size: 1rem !important;
+        color: white !important;
+        background: linear-gradient(268.23deg, #CE4DA4 17.14%, #4285F4 78.69%);
+    }
+}

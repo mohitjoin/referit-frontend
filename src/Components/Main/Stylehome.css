@@ -1,0 +1,345 @@
+.Home-container {
+    width: 100%;
+    background-color: white;
+    padding-top: 60px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-land-cont {
+    display: flex;
+    flex: row;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background: #F4F5F7;
+    padding-bottom: 40px;
+}
+
+.main-left-text {
+    width: 50%;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.main-right-image {
+    width: 50%;
+    padding-top: 40px;
+}
+
+.home-image {
+    width: 75%;
+}
+
+.Text-dix-1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    color: #000000;
+}
+
+.Text-dix-2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color: #000000;
+}
+
+.Text-dix-3 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(89.66deg, #CE4DA4 0.23%, #7353E5 103.37%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.Text-dix-4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+.Text-button-div-link {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: 40%;
+    height: 50px;
+}
+
+.Text-button-div {
+    border: 2px solid #CE4DA4;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.Text-button-div:hover {
+    background-color: #CE4DA4;
+    color: white;
+    cursor: pointer;
+}
+
+.main-land-cont2 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-div-land2 {
+    height: 300px;
+    width: 600px;
+    margin-left: -100px;
+    z-index: 10;
+    background: #F4F5F7;
+    border: 1px solid #000000;
+    box-shadow: 0px 0px 100px 48px rgba(244, 245, 247, 0.25);
+    border-radius: 24px;
+}
+
+.blured-image {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+.small-dots {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.small-dot-divs {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #CE4DA4 0%, #7958ED 100%);
+    margin-left: 10px;
+    z-index: 12;
+}
+
+.Text-dix-5 {
+    padding-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000000;
+}
+
+.Text-dix-6 {
+    padding-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+}
+
+.Text-button-div-land2 {
+    background: linear-gradient(265.35deg, #CE4DA4 4.41%, rgba(87, 77, 206, 0.5) 52.23%, #8D2CBB 95.7%);
+    border-radius: 12px;
+    height: 60px;
+    width: 140px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 28px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.main-land-cont3 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background: #F4F5F7;
+    padding: 40px;
+}
+
+.land3-heading {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.land3-heading-small {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Text / Gray 900 */
+    color: #18191F;
+}
+
+.Companies-logos-div {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    margin-left: 12.5%;
+}
+
+.comp-images {
+    height: 120px;
+    width: 180px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main-land-cont4 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px;
+}
+
+.land4-info-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.Name-and-posi-div {
+    width: 25%;
+    margin-left: 30px;
+}
+
+.What-he-said {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Dopublecott-div {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    /* identical to box height, or 136% */
+    font-feature-settings: 'salt' on, 'liga' off;
+    /* Brand / Turquoise */
+    color: #2EC5CE;
+    padding: 20px;
+}
+
+.main-land-cont5 {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background: #F4F5F7;
+    padding: 40px;
+}
+
+.Steps-container {
+    width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.Steps-container>div {
+    width: 50%;
+}
+
+.steps-small-div:nth-child(2n) {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.steps-small-div {
+    padding: 10px;
+    height: 70px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width:992px) {
+    .main-right-image {
+        display: none;
+    }
+    .main-left-text {
+        width: 100%;
+        padding-top: 0px;
+        padding-left: 40px;
+    }
+    .blured-image {
+        display: none;
+    }
+    .info-div-land2 {
+        height: 300px;
+        width: 90%;
+        margin: auto;
+        z-index: 10;
+        background: #F4F5F7;
+        border: 1px solid #000000;
+        box-shadow: 0px 0px 100px 48px rgba(244, 245, 247, 0.25);
+        border-radius: 24px;
+    }
+    .land4-info-div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .What-he-said {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Name-and-posi-div {
+        width: 90%;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .steps-small-div:nth-child(2n) {
+        margin-left: 0px;
+    }
+    .Steps-container>div {
+        width: 100%;
+    }
+    .Companies-logos-div {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        margin-left: 2%;
+    }
+    .comp-images {
+        height: 120px;
+        width: 180px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
