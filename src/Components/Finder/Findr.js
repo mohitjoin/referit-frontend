@@ -23,7 +23,7 @@ function Findr() {
     var [clear, setClear] = useState(false);
 
     useEffect(() => {
-        Axios.get('http://localhost:7000/api/getAllRefferal').then((response) => {
+        Axios.get('https://referit-backend.herokuapp.com/api/getAllRefferal').then((response) => {
             setreferral(response.data);
             //console.log(response.data);
         })
@@ -32,7 +32,7 @@ function Findr() {
     const handleSearchCompany = () => {
         // console.log(searchCompany)
 
-        Axios.get(`http://localhost:7000/api/getSearchedRefferal/${searchCompany}`).then((response) => {
+        Axios.get(`https://referit-backend.herokuapp.com/api/getSearchedRefferal/${searchCompany}`).then((response) => {
             setreferral(response.data);
             //console.log(response.data);
         })
