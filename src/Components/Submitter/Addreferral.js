@@ -40,7 +40,7 @@ function Addreferral() {
 
 
 
-        Axios.post('http://localhost:7000/api/insertReferal', {
+        Axios.post('https://referit-backend.herokuapp.com/api/insertReferal', {
             coname: compname,
             cologolink: clogolink,
             corolerefer: crolerefer,
