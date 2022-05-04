@@ -90,7 +90,7 @@ function Findr() {
 
         {
 
-            if(referrals.length!==0){
+       
             
             referrals.map((check, index) => {
                 return ( <
@@ -142,7 +142,7 @@ function Findr() {
 
             })
             
-          }
+          
         }
 
         <
