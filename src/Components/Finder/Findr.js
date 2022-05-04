@@ -29,7 +29,7 @@ function Findr() {
         })
         .catch((err)=>{
             console.log("Error");
-            setreferral([]);
+          
         })
         
         referrals = referrals || []
@@ -44,7 +44,7 @@ function Findr() {
             setreferral(response.data);
         }).catch((err)=>{
             console.log("Error Occured")
-            setreferral([]);
+            
         })
 
         setsearchCompany((pp) => {
