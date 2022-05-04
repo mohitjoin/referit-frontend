@@ -31,6 +31,9 @@ function Findr() {
             console.log("Error");
             setreferral([]);
         })
+        
+        referrals = referrals || []
+        
     }, [clear])
     var [searchCompany, setsearchCompany] = useState("")
     const handleSearchCompany = () => {
