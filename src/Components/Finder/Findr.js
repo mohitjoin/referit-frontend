@@ -27,14 +27,19 @@ function Findr() {
             setreferral(response.data);
             //console.log(response.data);
         })
+        .catch((err)=>{
+            console.log("Error");
+        })
     }, [clear])
     var [searchCompany, setsearchCompany] = useState("")
     const handleSearchCompany = () => {
         // console.log(searchCompany)
 
-        Axios.get(`http://localhost:7000/api/getSearchedRefferal/${searchCompany}`).then((response) => {
+        Axios.get(`http://localhost:7000/api/getSearchedRefferal/${searchCompany}`)
+        .then((response) => {
             setreferral(response.data);
-            //console.log(response.data);
+        }).catch((err)=>{
+            console.log("Error Occured")
         })
 
         setsearchCompany((pp) => {
