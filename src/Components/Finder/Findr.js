@@ -27,14 +27,23 @@ function Findr() {
             setreferral(response.data);
             //console.log(response.data);
         })
+        .catch((err)=>{
+            console.log("Error");
+            setreferral([]);
+        })
     }, [clear])
     var [searchCompany, setsearchCompany] = useState("")
     const handleSearchCompany = () => {
         // console.log(searchCompany)
 
-        Axios.get(`https://referit-backend.herokuapp.com/api/getSearchedRefferal/${searchCompany}`).then((response) => {
+
+        Axios.get(`http://localhost:7000/api/getSearchedRefferal/${searchCompany}`)
+        .then((response) => {
+
             setreferral(response.data);
-            //console.log(response.data);
+        }).catch((err)=>{
+            console.log("Error Occured")
+            setreferral([]);
         })
 
         setsearchCompany((pp) => {
@@ -83,6 +92,8 @@ function Findr() {
 
         {
 
+       
+            
             referrals.map((check, index) => {
                 return ( <
                     div key = { index }
@@ -132,6 +143,8 @@ function Findr() {
 
 
             })
+            
+          
         }
 
         <
